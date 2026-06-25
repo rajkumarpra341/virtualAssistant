@@ -117,7 +117,8 @@ AI Chat Interface
 
 Assistant Customization
 
-<img width="1919" height="857" alt="Screenshot 2026-06-25 132900" src="https://github.com/user-attachments/assets/44e4e0dc-a732-459f-b9d5-a1985681f7a6" />
+<img width="1912" height="860" alt="Screenshot 2026-06-25 132845" src="https://github.com/user-attachments/assets/a9830397-aa2a-4933-a253-611bf6879f82" />
+
 
 
 🎯 Learning Outcomes
