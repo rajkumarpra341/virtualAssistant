@@ -9,7 +9,7 @@ export const userDataContext = createContext()
 
 function UserContext({children}) 
 {    
-    const serverUrl = import.meta.env.VITE_SERVER_URL;
+    const serverUrl = https://virtualassistant-backend-rx23.onrender.com;
    
     const [userData , setUserData] = useState(null) 
     const [frontendImage , setFrontendImage] = useState(null)
