@@ -1,0 +1,106 @@
+.mainDiv{
+    width: full; 
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    justify-items: left;
+    background-image: url(C:\Users\HP\OneDrive\Desktop\backand\virtualAssistant\frontend\src\assets\roboImage2.avif);
+}
+.signUpForm 
+{   
+
+    width: 90%;
+    height: 600px;
+    max-width: 500px;
+    background: #00000068;
+    backdrop-filter: blur(12px);
+    
+    margin-left: 200px;
+   box-shadow: 5px 5px 10px  black;
+   display: flex;             /* flex */
+    flex-direction: column;    /* flex-col */
+    align-items: center;       /* items-center */
+    justify-content: center;   /* justify-center */
+    gap: 20px;                 /* gap-5 (Tailwind me) ya gap 20px */
+   
+}
+.name 
+{
+    color: blue;
+}
+.heading 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.input 
+{
+    width: 80%;                         /* w-full */
+    height: 60px;                         /* h-60px */
+    outline: none;                        /* outline-none */
+    border: 2px solid white;             /* border-2 border-white */
+    background-color: transparent;        /* bg-transparent */
+    color: white;                        /* text-white */
+    padding: 10px 20px;                  /* py-10px px-20px (Top/Bottom 10px, Left/Right 20px) */
+    border-radius: 9999px;               /* rounded-full (Pills jaisa gol shape) */
+    font-size: 18px;                     /* text-18px */
+   
+}
+.passDiv  
+{
+    width: 80%;                         /* w-full */
+    height: 60px;                         /* h-60px */
+    border: 2px solid white;             /* border-2 border-white */ 
+    background-color: transparent;        /* bg-transparent */
+    color: white;                        /* text-white */
+    border-radius: 9999px;               /* rounded-full (Pills jaisa gol shape) */
+    font-size: 18px;                     /* text-18px */
+    position: relative; /* <-- Yahi hai Tailwind ka 'relative' */
+}
+.pass 
+{
+   width: 80%;                         /* w-full */
+    height: 60px;                         /* h-60px */
+    outline: none;                        /* outline-none */
+    background-color: transparent;        /* bg-transparent */
+    color: white;                        /* text-white */
+    padding: 10px 20px;                  /* py-10px px-20px (Top/Bottom 10px, Left/Right 20px) */
+    border-radius: 9999px;               /* rounded-full (Pills jaisa gol shape) */
+    font-size: 18px;                     /* text-18px */
+   
+}
+.eyeOpen 
+{
+  position: absolute;        /* absolute */
+    top: 18px;                 /* top 18px */
+    right: 20px;               /* right 20 px */
+    width: 25px;               /* w- 25 px */
+    height: 25px;              /* h 25 px */
+    color: white; 
+    cursor: pointer;             /* text white */
+}
+.signUpBtn 
+{
+    min-width: 150px; 
+    height: 60px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 9999px;            
+    font-size: 19px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.para
+{
+    color: white; 
+    font-size: 18px; 
+    cursor: pointer;
+
+}
+.signin
+{
+   color: green;
+   font-weight: 600;
+}

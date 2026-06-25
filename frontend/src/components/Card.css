@@ -1,0 +1,35 @@
+.cardDiv
+{
+   width: 150px;                    /* w-200px */
+    height: 250px;                   /* h-300px */
+    background-color: #030326;       /* bg-#030326 */
+    border: 2px solid blue;          /* border-2 border-blue */
+    border-radius: 16px;             /* rounded-2xl (Tailwind me 2xl = 1rem/16px) */
+    overflow: hidden;
+    cursor: pointer;                         /* cursor pointer */
+    border: 4px solid transparent;           /* Default me transparent border taaki hover par layout hile nahi */
+    transition: all 0.3s ease;               /* Smooth animation ke liye (Optional par zaroori hai) */
+    display: flex;           /* flex */
+    align-items: center;     /* item-center */
+    justify-content: center; /* justify-center */
+}
+
+.cardDiv:hover {
+    border-color: white;                     /* hover border-4 hover border-white */
+    
+    /* Tailwind blue-950 ka hex code #030712 hai. Iski shadow-2xl niche hai: */
+    box-shadow: 0 25px 50px -12px rgba(3, 7, 18, 0.5); 
+
+    
+}
+.cardImage
+{
+    height: 100%;             /* h-full */
+    object-fit: cover;        /* object-cover */
+    width: 100%;              /* Optional: Isse width bhi poori fit ho jati hai */
+}
+.cardDiv.selectedCard {
+    /* jab card select ho tab  */
+    border-color: white; /* Blue border badal kar white ho jayega */
+    box-shadow: 0 25px 50px -12px rgba(3, 7, 18, 0.5); /* Shadow-2xl with dark blue-950 effect */
+}

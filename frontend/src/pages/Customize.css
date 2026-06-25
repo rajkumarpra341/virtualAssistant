@@ -1,0 +1,85 @@
+.customDiv
+{
+    width: 100%;                                          /* w-full */
+    height: 100vh;                                        /* h-100vh */
+    background: linear-gradient(to top, black, #030353); /* bg-gradient-to-t from black to #030353 */
+    display: flex;             /* flex */
+    justify-content: center;   /* justify-center */
+    align-items: center;       /* items-center */
+    flex-direction: column;    /* flex-col */
+    padding: 20px;
+    gap: 20px;
+    position: relative;
+}
+.imageDiv
+{
+    width: 90%;               /* w-90% */
+    max-width: 900px;           /* max-w-60% */
+    display: flex;            /* flex */
+    justify-content: center;  /* justify-center */
+    align-items: center;      /* items-center */
+    flex-wrap: wrap;          /* flex-wrap */
+    gap: 15px;
+}
+.uploadImage
+{
+    color: white;       /* text white */
+    width: 25px;        /* w 25px */
+    height: 25px;       /* h 25 px */
+}
+.heading 
+{
+   color: white;             /* text white */
+    font-size: 30px;          /* text 30px */
+    text-align: center;       /* text center */
+}
+.heading2
+{
+  color: chocolate;
+}
+.nextBtn
+{
+    min-width: 150px; 
+    height: 60px;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 9999px;            
+    font-size: 19px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.AssistName
+{
+    width: 50%;                         /* w-full */
+    height: 60px;                         /* h-60px */
+    outline: none;                        /* outline-none */
+    border: 2px solid white;             /* border-2 border-white */
+    background-color: transparent;        /* bg-transparent */
+    color: white;                        /* text-white */
+    padding: 10px 20px;                  /* py-10px px-20px (Top/Bottom 10px, Left/Right 20px) */
+    border-radius: 9999px;               /* rounded-full (Pills jaisa gol shape) */
+    font-size: 18px;                     /* text-18px */
+}
+.createBtn
+{
+    min-width: 300px; 
+    height: 60px;
+    color: white;
+    font-weight: 600;
+    background-color: green;
+    border-radius: 9999px;            
+    font-size: 19px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.backbtn 
+{
+     position: absolute;       /* absolute */
+    top: 30px;                /* top 30px */
+    left: 30px;               /* left 30 px */
+    color: white;             /* text white */
+    width: 25px;              /* w 25px */
+    height: 25px;             /* h 25px */
+    cursor: pointer;
+}
