@@ -1,10 +1,15 @@
 .mainDiv{
-    width: full; 
+    width: 100%; 
     height: 100vh;
     background-size: cover;
-    justify-content: center;
-    justify-items: left;
-    background-image: url(C:\Users\HP\OneDrive\Desktop\backand\virtualAssistant\frontend\src\assets\image6.jpg);
+    background-position: center;
+    background: linear-gradient(to top, black, #030353);
+     /* background-image: url(C:\Users\HP\OneDrive\Desktop\backand\virtualAssistant\frontend\src\assets\image6.jpg); */
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  
 }
 .signUpForm 
 {   
